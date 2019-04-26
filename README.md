@@ -1,4 +1,5 @@
 # esx_rpchat
+Official esx_rpchat : https://github.com/ESX-Org/esx_rpchat/
 
 #### Description
 This is a proximity chat script. With a few commands such as Twitter, Anonymous Twitter, OOC and Advertise
