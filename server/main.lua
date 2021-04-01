@@ -74,11 +74,11 @@ function GetCharacterName(source)
 		['@identifier'] = GetPlayerIdentifiers(source)[1]
 	})
 
-	if result[1] and result[1].firstname and result[1].lastname then
+	if result[0] and result[0].firstname and result[0].lastname then
 		if Config.OnlyFirstname then
-			return result[1].firstname
+			return result[0].firstname
 		else
-			return ('%s %s'):format(result[1].firstname, result[1].lastname)
+			return ('%s %s'):format(result[0].firstname, result[0].lastname)
 		end
 	else
 		return GetPlayerName(source)
